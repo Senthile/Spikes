@@ -1,0 +1,6 @@
+Create and Configure Phonegap project
+-----------------------------------------------------------------------------------------
+http://richdotnet.blogspot.com/2012/07/create-your-first-phonegap-project-with.html
+http://docs.phonegap.com/en/2.1.0/guide_getting-started_android_index.md.html#Getting%20Started%20with%20Android - reference
+- provide java installation path for JSDK home path
+
