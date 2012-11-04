@@ -11,6 +11,7 @@ public class SchoolInSync extends DroidGap {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.main);
+        super.loadUrlTimeoutValue = 60000;
         super.loadUrl("file:///android_asset/www/index.html");
 
     }

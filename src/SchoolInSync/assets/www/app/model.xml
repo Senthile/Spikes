@@ -1,0 +1,62 @@
+<model>
+    <supplemental>
+        <School>
+            <name>School of Free Education</name>
+            <address>All over the world</address>
+        </School>
+    </supplemental>
+    <parent>
+        <name>Jacob</name>
+    </parent>
+    <parent>
+        <name>Lakisha</name>
+    </parent>
+    <guardian>
+        <name>Martin</name>
+    </guardian>
+    <guardian>
+        <name>James</name>
+    </guardian>
+    <student>
+        <name>Aaron</name>
+        <id>1</id>
+        <class>X</class>
+        <teacherName>Mike</teacherName>
+        <teacherId>1</teacherId>
+        <exams>
+            <exam>
+                <name>First Term</name>
+                <tamil>100</tamil>
+                <english>100</english>
+                <maths>100</maths>
+            </exam>
+        </exams>
+        <leaves>
+            <leave>
+                <day>10-10-2012</day>
+                <reason>not well</reason>
+            </leave>
+        </leaves>
+    </student>
+    <student>
+        <name>Kim</name>
+        <id>1</id>
+        <class>X</class>
+        <teacherName>Mike</teacherName>
+        <teacherId>1</teacherId>
+        <exams>
+            <exam>
+                <name>First Term</name>
+                <tamil>100</tamil>
+                <english>100</english>
+                <maths>100</maths>
+            </exam>
+        </exams>
+        <leaves>
+            <leave>
+                <day>10-10-2012</day>
+                <reason>not well</reason>
+            </leave>
+        </leaves>
+    </student>
+</model>
