@@ -1,21 +1,32 @@
-<model>
+<schoolInSync>
     <supplemental>
         <School>
             <name>School of Free Education</name>
             <address>All over the world</address>
         </School>
     </supplemental>
+    <login>
+        <id></id>
+    </login>
     <parent>
+        <loginId>jcob@gmail.com</loginId>
         <name>Jacob</name>
+        <address>1 Tower Sq, Hartford, CT - 06103</address>
     </parent>
     <parent>
+        <loginId>lakisha@gmail.com</loginId>
         <name>Lakisha</name>
+        <address>85 Seymour St, Hartford, CT - 06103</address>
     </parent>
     <guardian>
+        <loginId>martin@gmail.com</loginId>
         <name>Martin</name>
+        <address>85 Seymour St, Hartford, CT - 06103</address>
     </guardian>
     <guardian>
+        <loginId>james@gmail.com</loginId>
         <name>James</name>
+        <address>85 Seymour St, Hartford, CT - 06103</address>
     </guardian>
     <student>
         <name>Aaron</name>
@@ -59,4 +70,4 @@
             </leave>
         </leaves>
     </student>
-</model>
+</schoolInSync>
