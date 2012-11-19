@@ -1,14 +1,14 @@
-// Filename: app.js
-define([
-  'jquery',
-  'underscore',
-  'backbone',
-  'router', // Request router.js
-], function($, _, Backbone, Router){
-    var initialize = function(){
-        Router.initialize();
-    };
-    return {
-        initialize: initialize
-    };
+define(['jquery','underscore', 'backbone','router'],function($, _, Backbone,Router) {
+	'use strict';
+	var init=function(){
+		//create backbone router
+		var router=new Router();
+		Backbone.history.start();
+		//router.navigate("login");
+	};
+
+    return{
+	    initialize:init
+    }
 });
+

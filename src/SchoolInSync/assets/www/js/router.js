@@ -1,22 +1,30 @@
-// Filename: router.js
-define([
-  'jquery',
-  'underscore',
-  'backbone',
-  'model',
-  '../modules/login/loginView',
-  'jqm'
-], function ($, _, Backbone, Model,LoginView) {
-    var AppRouter = Backbone.Router.extend({
-        routes: {
-            // Define some URL routes
-            '/login': 'showLogin',
-            '/details': 'showDetails',
+define(['jquery', 'underscore', 'backbone','modules/login/loginView','model','jqm'],
+	function($, _, Backbone,LoginView,Model) {
 
-            // Default
-            '*actions': 'defaultAction'
+    'use strict';
+    var Router = Backbone.Router.extend({
+    //define routes and mapping route to the function
+        routes: {
+            '':    'showLogin',
+            login: 'showLogin',
+            student: 'showStudent',
+            '*actions': 'defaultAction' //default action,mapping "/#anything"
         },
-        init:true,
+        init: true,
+
+        showLogin : function(actions){
+            // will render home view and navigate to homeView
+            var loginView=new LoginView();
+            loginView.render();
+            this.changePage(loginView);
+        },
+        showStudent : function(actions){
+
+        },
+
+        defaultAction: function(actions){
+            this.showLogin();
+        },
         //1. changePage will insert view into DOM and then call changePage to enhance and transition
         //2. for the first page, jQuery mobile will present and enhance automatically
         //3. for the other page, we will call $.mobile.changePage() to enhance page and make transition
@@ -32,33 +40,15 @@ define([
             }else{
                 this.init = false;
             }
+
+
         }
+
     });
 
-    var initialize = function () {
-        var app_router = new AppRouter;
-
-        app_router.on('showLogin', function () {
-            var loginView = new LoginView();
-            loginView.render();
-            app_router.changePage(loginView);
-        });
-
-        app_router.on('showDetails', function () {
-
-        });
-
-        app_router.on('defaultAction', function (actions) {
-            // We have no matching route, lets just log what the URL was
-            console.log('No route:', actions);
-        });
-
-        Backbone.history.start();
-    };
-
-
-
-    return {
-        initialize: initialize
-    };
+    return Router;
 });
+
+
+
+
