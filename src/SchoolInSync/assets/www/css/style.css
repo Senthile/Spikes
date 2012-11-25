@@ -6,3 +6,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.logo {
+    margin: 20px auto;
+    width: 25%;
+    height: 10%;
+}
+
+.contactus {
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 0 0 0 10px;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li {
+	margin:1em 0;
+}
+

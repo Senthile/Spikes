@@ -1,5 +1,8 @@
-define(['jquery', 'underscore', 'backbone','modules/login/loginView','model','jqm'],
-	function($, _, Backbone,LoginView,Model) {
+define(['jquery', 'underscore', 'backbone',
+        'modules/login/loginView',
+        'modules/student/studentView',
+        'model','jqm'],
+	function($, _, Backbone,LoginView,StudentView,Model) {
 
     'use strict';
     var Router = Backbone.Router.extend({
@@ -13,13 +16,14 @@ define(['jquery', 'underscore', 'backbone','modules/login/loginView','model','jq
         init: true,
 
         showLogin : function(actions){
-            // will render home view and navigate to homeView
-            var loginView=new LoginView();
+            var loginView = new LoginView({router: this});
             loginView.render();
             this.changePage(loginView);
         },
         showStudent : function(actions){
-
+            var studentView = new StudentView({router: this});
+            studentView.render();
+            this.changePage(studentView);
         },
 
         defaultAction: function(actions){
@@ -32,6 +36,7 @@ define(['jquery', 'underscore', 'backbone','modules/login/loginView','model','jq
         changePage:function (view) {
             //add the attribute 'data-role="page" ' for each view's div
             view.$el.attr('data-role', 'page');
+
             //append to dom
             $('body').append(view.$el);
 
