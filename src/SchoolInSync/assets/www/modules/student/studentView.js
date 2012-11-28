@@ -5,17 +5,14 @@ function($, _, Backbone, HeaderView, FooterView, studentViewTemplate){
     //initialize template
     template:_.template(studentViewTemplate),
 
+    context: {page:'student', header: 'Student', previous: 'login'},
+
     //render the content into div of view
     render: function(){
-	  //this.el is the root element of Backbone.View. By default, it is a div.
-      //$el is cached jQuery object for the view's element.
-      //append the compiled template into view div container
-      this.$el.append(new HeaderView().render({header:'Student', previous: 'login'}).el);
-      this.$el.append(this.template());
-      this.$el.append(new FooterView().render().el);
-
-      //return to enable chained calls
-      return this;
+        this.$el.append(new HeaderView({router: this.options.router}).render(this.context).el);
+        this.$el.append(this.template());
+        this.$el.append(new FooterView({router: this.options.router}).render(this.context).el);
+        return this;
     }
   });
   return StudentView;

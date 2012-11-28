@@ -9,18 +9,16 @@ function($, _, Backbone, footerViewTemplate){
     //initialize template
     template:_.template(footerViewTemplate),
 
-    //render the content into div of view
-    render: function(){
-	  //this.el is the root element of Backbone.View. By default, it is a div.
-      //$el is cached jQuery object for the view's element.
-      //append the compiled template into view div container
-      this.$el.append(this.template());
+    context : null,
 
-      //return to enable chained calls
+    //render the content into div of view
+    render: function(context){
+      this.context = context;
+      this.$el.append(this.template());
       return this;
     },
     handleClick : function() {
-        console.log("contact us clicked");
+        this.options.router.navigate(this.context.page +"/contactus", {trigger:true});
     }
   });
   return FooterView;

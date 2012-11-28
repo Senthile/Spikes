@@ -15,8 +15,8 @@ body {
 
 .contactus {
     float: left;
-    width: 25px;
-    height: 25px;
+    width: 8%;
+    height: 5%;
     margin: 0 0 0 10px;
 }
 
@@ -27,5 +27,13 @@ ul {
 }
 li {
 	margin:1em 0;
+}
+
+#contactusHeader {
+    color:white;
+}
+
+#contactusContent {
+    min-height: 300px;
 }
 

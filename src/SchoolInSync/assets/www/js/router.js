@@ -1,8 +1,9 @@
 define(['jquery', 'underscore', 'backbone',
+        'modules/contactus/contactusView',
         'modules/login/loginView',
         'modules/student/studentView',
         'model','jqm'],
-	function($, _, Backbone,LoginView,StudentView,Model) {
+	function($, _, Backbone,ContactUsView, LoginView,StudentView,Model) {
 
     'use strict';
     var Router = Backbone.Router.extend({
@@ -11,6 +12,7 @@ define(['jquery', 'underscore', 'backbone',
             '':    'showLogin',
             login: 'showLogin',
             student: 'showStudent',
+            ':page/contactus': 'showContactUs',
             '*actions': 'defaultAction' //default action,mapping "/#anything"
         },
         init: true,
@@ -25,6 +27,11 @@ define(['jquery', 'underscore', 'backbone',
             studentView.render();
             this.changePage(studentView);
         },
+        showContactUs : function(actions){
+            var contactUsView = new ContactUsView({router: this});
+            contactUsView.render();
+            this.changePage(contactUsView);
+        },
 
         defaultAction: function(actions){
             this.showLogin();
@@ -35,7 +42,11 @@ define(['jquery', 'underscore', 'backbone',
         //4. argument 'view' is passed from event trigger
         changePage:function (view) {
             //add the attribute 'data-role="page" ' for each view's div
-            view.$el.attr('data-role', 'page');
+            if(view.isDialog) {
+                view.$el.attr('data-role', 'dialog');
+            } else {
+               view.$el.attr('data-role', 'page');
+            }
 
             //append to dom
             $('body').append(view.$el);
