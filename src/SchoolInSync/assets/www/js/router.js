@@ -18,17 +18,17 @@ define(['jquery', 'underscore', 'backbone',
         init: true,
 
         showLogin : function(actions){
-            var loginView = new LoginView({router: this});
+            var loginView = new LoginView();
             loginView.render();
             this.changePage(loginView);
         },
         showStudent : function(actions){
-            var studentView = new StudentView({router: this});
+            var studentView = new StudentView();
             studentView.render();
             this.changePage(studentView);
         },
         showContactUs : function(actions){
-            var contactUsView = new ContactUsView({router: this});
+            var contactUsView = new ContactUsView();
             contactUsView.render();
             this.changePage(contactUsView);
         },

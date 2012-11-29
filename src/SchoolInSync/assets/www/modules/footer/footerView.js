@@ -1,5 +1,5 @@
-define(['jquery', 'underscore', 'backbone','text!modules/footer/footerViewTemplate.html'],
-function($, _, Backbone, footerViewTemplate){
+define(['jquery', 'underscore', 'backbone','global','text!modules/footer/footerViewTemplate.html'],
+function($, _, Backbone, Global, footerViewTemplate){
 
   var FooterView = Backbone.View.extend({
      events : {
@@ -18,7 +18,7 @@ function($, _, Backbone, footerViewTemplate){
       return this;
     },
     handleClick : function() {
-        this.options.router.navigate(this.context.page +"/contactus", {trigger:true});
+       Global.getRouter().navigate(this.context.page +"/contactus", {trigger:true});
     }
   });
   return FooterView;
