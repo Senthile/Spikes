@@ -16,14 +16,11 @@ require.config({
 //1. load app.js,
 //2. configure jquery mobile to prevent default JQM ajax navigation
 //3. bootstrapping application
-define(['app','jqm-config', 'global'], function(app, jqconfig, global) {
+define(['app','jqm-config'], function(app, jqconfig) {
     $(document).ready(function() {
       console.log("DOM IS READY");
     });    
     app.initialize();
-
-    //for global use
-    global.setRouter(app.getRouter());
 });
 
 
