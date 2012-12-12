@@ -7,33 +7,36 @@ body {
     padding: 0;
 }
 
-.logo {
-    margin: 20px auto;
-    width: 25%;
-    height: 10%;
-}
-
-.contactus {
-    float: left;
-    width: 8%;
-    height: 5%;
-    margin: 0 0 0 10px;
-}
 
 ul {
 	list-style-type:none;
 	margin:0;
 	padding:0;
 }
+
 li {
 	margin:1em 0;
 }
 
-#contactusHeader {
-    color:white;
+.scrollable {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
-#contactusContent {
-    min-height: 300px;
+#logo {
+    margin: 20px auto;
+    width: 25%;
+    height: 10%;
 }
+
+#contactUs {
+    float: left;
+    width: 8%;
+    height: 5%;
+    margin: 0 0 0 10px;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+
 

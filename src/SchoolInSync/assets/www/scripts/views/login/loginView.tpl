@@ -1,6 +1,6 @@
 <div data-role="content">
     <header>
-        <center><img class="logo" src="images/logo.jpg" alt="logo"/></center>
+        <center><img id="logo" src="images/logo.jpg" alt="logo"/></center>
     </header>
     <section>
         <ul>
@@ -13,9 +13,8 @@
                 <input type="password" value=""/>
             </li>
             <li>
-                <a data-role="button" class="clickableLogin" data-inline="true">Login</a>
+                <a data-role="button" id="login" data-inline="true">Login</a>
             </li>
         </ul>
     </section>
 </div>
-
