@@ -1,19 +1,35 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>School in Sync</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
+<!doctype html>
+<html class="no-js ui-mobile-rendering" lang="en">
+<head>
+    <title>School inSync</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
 
-        <link rel="stylesheet" href="scripts/libs/jquery.mobile/jquery.mobile-1.2.0.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="scripts/libs/jquery.mobile-1.2.0.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 
-        <script src="scripts/libs/phonegap/cordova-2.1.0.js"></script>
-        <script data-main="scripts/main" src="scripts/libs/require/require-2.1.2.js"></script>
-    </head>
+    <script src="scripts/libs/cordova-2.2.0.js"></script>
+    <script data-main="scripts/mobile" src="scripts/libs/require-2.1.2.js"></script>
+</head>
 <body>
-<div id="container">
 
+<div id="dummy" data-role="page">
 </div>
+
+<div id="login" data-role="page" data-title="login">
+</div>
+
+<div id="student" data-role="page" data-title="student">
+</div>
+
+<div data-role="dialog" id="contactus" role="dialog">
+    <div data-role="header"><h1>Contact Us</h1></div>
+    <div data-role="content">
+        <p>Dialog content can go here</p>
+        <p>Buttons can go here</p>
+    </div>
+</div>
+
+
 </body>
 </html>

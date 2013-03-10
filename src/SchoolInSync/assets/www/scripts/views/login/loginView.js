@@ -1,29 +1,52 @@
-define(['jquery', 'underscore', 'Backbone',
-        'text!views/header/header.tpl', 'text!views/login/loginView.tpl', 'text!views/footer/footer.tpl',
-        'views/contactUs/ContactUsView', 'views/student/studentView', ],
-    function ($, _, Backbone, HeaderTemplate, LoginViewTemplate, FooterTemplate, ContactUsView, StudentView) {
-        var LoginView = Backbone.View.extend({
-            headerTemplate:_.template(HeaderTemplate),
-            template:_.template(LoginViewTemplate),
-            footerTemplate:_.template(FooterTemplate),
+// Includes file dependencies
+define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login/loginView.tpl', 'text!views/common/footer.tpl'],
+    function( $, Backbone,HeaderTemplate, LoginViewTemplate, FooterTemplate) {
 
-            events : {
-                'click #login' : 'handleLogin',
-                'click #contactUs' : 'handleContactUs'
-            },
-            render : function () {
-                this.$el.append(this.headerTemplate({canMoveBack: false, title: "Login"}));
-                this.$el.append(this.template());
-                this.$el.append(this.footerTemplate());
-                return this;
-            },
-            handleLogin : function (event) {
-                $.mobile.jqmNavigator.pushView(new StudentView());
-            },
-            handleContactUs : function() {
-                $.mobile.jqmNavigator.showDialog(new ContactUsView());
-            }
+    // Extends Backbone.View
+    var LoginView = Backbone.View.extend( {
+        events : {
+            'pageinit'  : "pageinit",
+            'pagecreate' : "pagecreate",
+            'pageshow' : "pageshow",
+            'click #btnLogin' : 'handleLogin'
+        },
 
-        });
-        return LoginView;
-    });
+        headerTemplate: _.template(HeaderTemplate),
+        template:_.template(LoginViewTemplate),
+        footerViewTemplate: _.template(FooterTemplate),
+
+        // The View Constructor
+        initialize: function() {
+        },
+
+        // Renders all of the Category models on the UI
+        render: function() {
+            var content = this.headerTemplate({canMoveBack: false, title: "Login"}) +
+                this.template() + this.footerViewTemplate();
+            this.$el.html(content);
+            return this;
+        },
+
+        pageinit : function() {
+            console.log("login page init");
+        },
+
+        pagecreate : function() {
+            this.render();
+            console.log("login page create");
+        },
+
+        pageshow : function() {
+            $("input[type='password']",this.$el).val("");
+        },
+
+        handleLogin : function (event) {
+            MobileRouter.navigate("student", {trigger:true});
+            //$.mobile.changePage( "#student");
+        }
+    } );
+
+    // Returns the View class
+    return LoginView;
+
+} );
