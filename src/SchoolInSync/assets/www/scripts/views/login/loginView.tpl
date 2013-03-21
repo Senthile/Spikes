@@ -6,14 +6,17 @@
             <ul>
                 <li>
                     <label>Parent/Guardian Id:</label>
-                    <input type="text" value=""/>
+                    <input id="userId" type="text" value="<%= userId %>"/>
                 </li>
                 <li>
                     <label>Password:</label>
-                    <input type="password" value=""/>
+                   <input id="password" type="password" value="<%= password %>"/>
                 </li>
                 <li>
                     <a data-role="button" id="btnLogin" data-inline="true">Login</a>
+                </li>
+                <li>
+                    <span id="error" class="error"> <%if(result==='false'){%><%=error%><%}%> </span>
                 </li>
             </ul>
         </section>

@@ -1,51 +1,103 @@
 // Includes file dependencies
-define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login/loginView.tpl', 'text!views/common/footer.tpl'],
-    function( $, Backbone,HeaderTemplate, LoginViewTemplate, FooterTemplate) {
+define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login/loginView.tpl', 'text!views/common/footer.tpl', "models/model"],
+    function( $, Backbone,HeaderTemplate, LoginViewTemplate, FooterTemplate, Model) {
 
     // Extends Backbone.View
     var LoginView = Backbone.View.extend( {
         events : {
-            'pageinit'  : "pageinit",
-            'pagecreate' : "pagecreate",
-            'pageshow' : "pageshow",
-            'click #btnLogin' : 'handleLogin'
+            //jQuery mobile page life cycle events
+            'pagebeforecreate': "pagebeforecreate",
+            'pagecreate': "pagecreate",
+            'pageinit': "pageinit",
+            'pagebeforeshow': "pagebeforeshow",
+            'pageshow': "pageshow",
+            'pagebeforehide': "pagebeforehide",
+            'pagehide': "pagehide",
+            'pageremove': "pageremove",
+
+            'click #btnLogin': 'handleLogin',
+            'change input':  'fieldChanged'
         },
 
         headerTemplate: _.template(HeaderTemplate),
         template:_.template(LoginViewTemplate),
         footerViewTemplate: _.template(FooterTemplate),
 
-        // The View Constructor
+        model: new Model.Login(),
+
+       // The View Constructor
         initialize: function() {
+            this.model.on('change',this.handleModelChange,this);
         },
 
-        // Renders all of the Category models on the UI
+        handleModelChange : function() {
+            this.render();
+            $("#" + this.$el.attr("id")).page('destroy').page(); //recreate the page
+        },
+
         render: function() {
-            var content = this.headerTemplate({canMoveBack: false, title: "Login"}) +
-                this.template() + this.footerViewTemplate();
-            this.$el.html(content);
+            console.log("login render called");
+            var header = this.headerTemplate({canMoveBack: false, title: "Login"}),
+                content = this.template(this.model.toJSON()),
+                footer =   this.footerViewTemplate();
+            this.$el.html(header + content + footer);
             return this;
         },
 
-        pageinit : function() {
-            console.log("login page init");
+        pagebeforecreate: function() {
+            console.log("loginpage: pagebeforecreate");
         },
 
         pagecreate : function() {
             this.render();
-            console.log("login page create");
+            console.log("loginpage: create");
+        },
+
+        pageinit : function() {
+            console.log("loginpage: init");
+        },
+
+        pagebeforeshow: function() {
+            this.model.set("password","");
+            console.log("loginpage: pagebeforeshow");
         },
 
         pageshow : function() {
-            $("input[type='password']",this.$el).val("");
+            console.log("loginpage: pageshow");
+        },
+
+        pagebeforehide: function() {
+            console.log("loginpage: pagebeforehide");
+        },
+
+        pagehide : function() {
+            console.log("loginpage: pagehide");
+            //this.model.set("password","");
+        },
+
+        pageremove: function() {
+            console.log("loginpage: pageremove");
+        },
+
+        fieldChanged: function(e){
+            var field = $(e.currentTarget);
+            this.model.set(field.attr('id'),field.val(),{silent:true});
         },
 
         handleLogin : function (event) {
-            MobileRouter.navigate("student", {trigger:true});
-            //$.mobile.changePage( "#student");
+            var self = this;
+            this.model.doAuthenticate({
+                    success: function() {
+                        if(self.model.get("result")==="true") {
+                            MobileRouter.navigate("student", {trigger:true});
+                        }
+                    },
+                    error: function(data){
+                        self.model.set("result", "false");
+                    }
+            });
         }
     } );
-
     // Returns the View class
     return LoginView;
 

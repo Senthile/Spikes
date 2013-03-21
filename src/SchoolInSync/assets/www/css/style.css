@@ -23,6 +23,10 @@ li {
     -webkit-overflow-scrolling: touch;
 }
 
+.error {
+    color: red;
+}
+
 #logo {
     margin: 20px auto;
     width: 25%;
