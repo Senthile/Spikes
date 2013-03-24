@@ -1,8 +1,11 @@
 <div data-role="content">
-    <ul data-role="listview" data-inset="true">
-        <li><a href="#">Jack Brown <p class="ui-li-aside"><strong>10'th Std</strong></p></a></li>
-        <li><a href="#">Tyler Desilva <p class="ui-li-aside"><strong>10'th Std</strong></p></a></li>
-        <li><a href="#">Louies Jenat <p class="ui-li-aside"><strong>12'th Std</strong></p></a></li>
-        <li><a href="#">Wills Alfrad <p class="ui-li-aside"><strong>12'th Std</strong></p></a></li>
-    </ul>
+    <% if(students.length) { %>
+        <ul data-role="listview" data-inset="true">
+            <% _.each(students, function(student) {%>
+                <li><a href="#"><%=student.firstName + " " + student.lastName%> <p class="ui-li-aside"><strong><%=student.std%></strong></p></a></li>
+            <%})%>
+        </ul>
+    <% } else { %>
+        <span class="error"> No data available to display.</span>
+    <% } %>
 </div>

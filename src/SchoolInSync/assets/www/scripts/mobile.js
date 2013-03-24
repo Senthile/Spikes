@@ -3,8 +3,8 @@ require.config( {
     // 3rd party script alias names (Easier to type "jquery" than "libs/jquery-1.8.2.min")
     paths: {
         // Core Libraries
-        "jquery": "libs/jquery-1.8.3",
-        "jquerymobile": "libs/jquery.mobile-1.2.0",
+        "jquery": "libs/jquery-1.9.1",
+        "jquerymobile": "libs/jquery.mobile-1.3.0",
         "underscore": "libs/underscore-1.4.3",
         "backbone": "libs/backbone-0.9.2",
         text:'libs/text-2.0.3'
@@ -35,7 +35,6 @@ require([ "jquery", "backbone", "routers/mobileRouter" ], function ($, Backbone,
             if (navigator.userAgent.match(/(iPad|iPhone|Android)/)) {
                 //cordova.exec(null, null, 'SplashScreen', 'hide', []);
             }
-
         }
     )
     require([ "jquerymobile" ], function () {
@@ -44,7 +43,7 @@ require([ "jquery", "backbone", "routers/mobileRouter" ], function ($, Backbone,
     });
     $( "#contactus" ).on( "click", "a", function( e ) {
         e.preventDefault();
-        window.history.go(-2);
+        window.history.go(-1);
     });
 });
 

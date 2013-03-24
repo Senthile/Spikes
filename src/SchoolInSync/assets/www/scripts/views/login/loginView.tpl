@@ -16,7 +16,11 @@
                     <a data-role="button" id="btnLogin" data-inline="true">Login</a>
                 </li>
                 <li>
-                    <span id="error" class="error"> <%if(result==='false'){%><%=error%><%}%> </span>
+                    <span class="error">
+                        <% if(result==="false") { %>
+                           Login failed. Please try again or contact administrator.
+                        <% } %>
+                    </span>
                 </li>
             </ul>
         </section>
