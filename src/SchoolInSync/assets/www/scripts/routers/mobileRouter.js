@@ -18,9 +18,10 @@ define([ "jquery","backbone", "views/login/loginView", 'views/student/studentVie
         routes: {
             // When there is no hash bang on the url, the home method is called
             "": "login",
-            login : "login",
-            student : "student",
-            contactus : "contactus"
+            "login" : "login",
+            "student" : "student",
+            "contactus" : "contactus",
+            "studentDetail/:studentId": "studentDetail"
         },
 
         login: function() {
@@ -31,6 +32,11 @@ define([ "jquery","backbone", "views/login/loginView", 'views/student/studentVie
         student : function() {
             console.log("student router called");
             $.mobile.changePage( "#student");
+        },
+
+        studentDetails: function(studentId) {
+            console.log("student router called with " + studentId);
+            //$.mobile.changePage( "#studentDetails");
         },
 
         contactus : function() {

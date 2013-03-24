@@ -5,9 +5,10 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/stude
     // Extends Backbone.View
     var StudentView = Backbone.View.extend( {
         events : {
-            'pageinit'  : "pageinit",
-            'pagecreate' : "pagecreate",
-            'pagebeforeshow' : 'pagebeforeshow'
+            'pageinit': "pageinit",
+            'pagecreate': "pagecreate",
+            'pagebeforeshow': "pagebeforeshow",
+            'click a[href=#list]': "showStudentDetails"
         },
 
         headerTemplate: _.template(HeaderTemplate),
@@ -50,6 +51,11 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/stude
                 }
             });
             console.log("studentpage: pagebeforeshow");
+        },
+
+        showStudentDetails: function(e) {
+            var studentId = $(e.currentTarget).data("identity");
+            MobileRouter.navigate("studentDetails/" + studentId , {trigger:true});
         }
 
     });

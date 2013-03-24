@@ -32,7 +32,7 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login
 
         handleModelChange : function() {
             this.render();
-            $("#" + this.$el.attr("id")).page('destroy').page(); //recreate the page
+            $("#" + this.$el.attr("id")).page('destroy').page();  //recreate the page
         },
 
         render: function() {
