@@ -1,6 +1,6 @@
 // Includes file dependencies
-define([ "jquery","backbone", "views/login/loginView", 'views/student/studentView'],
-    function( $, Backbone, LoginView, StudentView ) {
+define([ "jquery","backbone", "views/login/loginView", 'views/student/studentView', 'views/studentDetails/studentDetailsView'],
+    function( $, Backbone, LoginView, StudentView, StudentDetailsView ) {
 
     // Extends Backbone.Router
     var MobileRouter = Backbone.Router.extend( {
@@ -9,6 +9,7 @@ define([ "jquery","backbone", "views/login/loginView", 'views/student/studentVie
         initialize: function() {
             this.loginView = new LoginView({el: "#login"});
             this.studentView = new StudentView({el: "#student"});
+            this.studentDetailsView = new StudentDetailsView({el: "#studentDetails"});
 
            // Tells Backbone to start watching for hashchange events
             Backbone.history.start();
@@ -21,7 +22,7 @@ define([ "jquery","backbone", "views/login/loginView", 'views/student/studentVie
             "login" : "login",
             "student" : "student",
             "contactus" : "contactus",
-            "studentDetail/:studentId": "studentDetail"
+            "studentDetails?:studentId": "studentDetails"
         },
 
         login: function() {
@@ -36,12 +37,17 @@ define([ "jquery","backbone", "views/login/loginView", 'views/student/studentVie
 
         studentDetails: function(studentId) {
             console.log("student router called with " + studentId);
-            //$.mobile.changePage( "#studentDetails");
+            $.mobile.changePage( "#studentDetails");
         },
 
         contactus : function() {
             console.log("contactus router called");
             $.mobile.changePage('#contactus');
+        },
+
+        getUrlParam : function(name) {
+            var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+            return results[1] || 0;
         }
     } );
 

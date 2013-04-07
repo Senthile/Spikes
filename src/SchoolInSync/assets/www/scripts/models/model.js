@@ -1,10 +1,12 @@
 define([ "jquery", "backbone"],function( $, Backbone) {
 
+
     var baseUrl = 'http://localhost:57767/School',
          loginUrl = baseUrl + '/login',
-         studentsUrl = baseUrl + "/getStudents";
+         studentsUrl = baseUrl + "/getStudents",
+         self = this;
 
-    var Login = Backbone.Model.extend({
+    var login = new(Backbone.Model.extend({
         url: loginUrl,
         defaults: {
             userId: "",
@@ -14,7 +16,7 @@ define([ "jquery", "backbone"],function( $, Backbone) {
         doAuthenticate: function (options) {
             this.save({}, options);
         }
-    });
+    }));
 
     var Student =  Backbone.Model.extend({
         defaults: {
@@ -22,19 +24,27 @@ define([ "jquery", "backbone"],function( $, Backbone) {
             firstName: "",
             lastName: "",
             std: ""
-        }
+        },
+        idAttribute: "studentId"
     });
 
-    var Students = Backbone.Collection.extend({
+    var students = new(Backbone.Collection.extend({
         url: studentsUrl,
-        model: Student
-    });
+        model: Student,
+        comparator: function(item1, item2) {
+            return item1.get("studentId") > item2.get("studentId"); //ascending order
+        },
+        //Note: parse the response if need to modify the response
+        parse: function(response) {
+            return response;
+        }
+    }));
 
 
     return {
-        Login: Login,
+        login: login,
         Student: Student,
-        Students: Students
+        students: students
     };
 
 });

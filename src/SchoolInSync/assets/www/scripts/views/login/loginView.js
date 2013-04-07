@@ -23,7 +23,7 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login
         template:_.template(LoginViewTemplate),
         footerViewTemplate: _.template(FooterTemplate),
 
-        model: new Model.Login(),
+        model: Model.login,
 
        // The View Constructor
         initialize: function() {
@@ -37,7 +37,7 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login
 
         render: function() {
             console.log("login render called");
-            var header = this.headerTemplate({canMoveBack: false, title: "Login"}),
+            var header = this.headerTemplate({canMoveBack: false, logout: false, title: "Login"}),
                 content = this.template(this.model.toJSON()),
                 footer =   this.footerViewTemplate();
             this.$el.html(header + content + footer);
@@ -89,6 +89,7 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login
             this.model.doAuthenticate({
                     success: function() {
                         if(self.model.get("result")==="true") {
+                            Model.students.reset(undefined,{silent:true});
                             MobileRouter.navigate("student", {trigger:true});
                         }
                     },

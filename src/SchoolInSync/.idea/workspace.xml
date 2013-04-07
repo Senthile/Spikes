@@ -5,30 +5,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec697cb3-e8ab-4567-a423-36704adc4434" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/cordova-2.2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/scripts/libs/jquery-1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/scripts/libs/jquery.mobile-1.3.0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/scripts/libs/jquery.mobile-1.3.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.tpl" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool.sln" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\Site.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.all.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.base.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.button.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.core.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.resizable.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.selectable.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.slider.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Content\themes\base\jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Controllers\SchoolController.cs" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Global.asax" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Global.asax.cs" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Models\Student.cs" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Properties\AssemblyInfo.cs" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\MicrosoftAjax.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\MicrosoftAjax.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\MicrosoftMvcAjax.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\MicrosoftMvcAjax.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\MicrosoftMvcValidation.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\MicrosoftMvcValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery-1.5.1-vsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery-1.5.1.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery-1.5.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery-ui-1.8.11.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery-ui-1.8.11.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery.unobtrusive-ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery.unobtrusive-ajax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery.validate-vsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery.validate.unobtrusive.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\jquery.validate.unobtrusive.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\modernizr-1.7.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Scripts\modernizr-1.7.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Views\Shared\Error.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Views\Shared\_Layout.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Views\Web.config" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Views\_ViewStart.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Web.Debug.config" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Web.Release.config" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\Web.config" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\netSchool.csproj" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\netSchool\packages.config" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\EntityFramework.4.1.10331.0\EntityFramework.4.1.10331.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\Modernizr.1.7\Content\Scripts\modernizr-1.7.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\Modernizr.1.7\Content\Scripts\modernizr-1.7.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\Modernizr.1.7\Modernizr.1.7.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.1.5.1\Content\Scripts\jquery-1.5.1.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.1.5.1\Content\Scripts\jquery-1.5.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.1.5.1\jQuery.1.5.1.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.all.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.base.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.button.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.core.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.resizable.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.selectable.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.slider.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Content\themes\base\jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Scripts\jquery-ui-1.8.11.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\Content\Scripts\jquery-ui-1.8.11.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.UI.Combined.1.8.11\jQuery.UI.Combined.1.8.11.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.Validation.1.8.0\Content\Scripts\jquery.validate-vsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.Validation.1.8.0\Content\Scripts\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.Validation.1.8.0\Content\Scripts\jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.Validation.1.8.0\jQuery.Validation.1.8.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.vsdoc.1.5.1\Content\Scripts\jquery-1.5.1-vsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\jQuery.vsdoc.1.5.1\jQuery.vsdoc.1.5.1.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Spikes\tools\netSchool\packages\repositories.config" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/scripts/views/common/header.tpl" afterPath="$PROJECT_DIR$/assets/www/scripts/views/common/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/index.html" afterPath="$PROJECT_DIR$/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js" afterPath="$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/scripts/routers/mobileRouter.js" afterPath="$PROJECT_DIR$/assets/www/scripts/routers/mobileRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/scripts/models/model.js" afterPath="$PROJECT_DIR$/assets/www/scripts/models/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/scripts/views/student/studentView.js" afterPath="$PROJECT_DIR$/assets/www/scripts/views/student/studentView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/scripts/views/student/studentView.tpl" afterPath="$PROJECT_DIR$/assets/www/scripts/views/student/studentView.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SchoolInSync.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1364098746087" ignored="false" />
+    <file path="/Dummy.txt" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365294965695" ignored="false" />
     <file path="/fragment.java" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1362928399702" ignored="false" />
     <file path="/jqmNavigator-customized.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1355073724232" ignored="false" />
     <file path="/main.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1355102711509" ignored="false" />
-    <file path="/index.html" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1355101412177" ignored="false" />
-    <file path="/loginView.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1363838029106" ignored="false" />
-    <file path="/header.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1363751277584" ignored="false" />
+    <file path="/index.html" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365036680761" ignored="false" />
+    <file path="/loginView.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365299703099" ignored="false" />
+    <file path="/header.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365298876042" ignored="false" />
     <file path="/footer.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1355273108682" ignored="false" />
     <file path="/contactUsView.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1355273975458" ignored="false" />
     <file path="/loginView.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1364065959547" ignored="false" />
     <file path="/style.css" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1363656306960" ignored="false" />
-    <file path="/studentView.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1364093977783" ignored="false" />
-    <file path="/model.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1364065579814" ignored="false" />
-    <file path="/mobileRouter.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1364092900981" ignored="false" />
+    <file path="/studentView.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365299227039" ignored="false" />
+    <file path="/model.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365125172888" ignored="false" />
+    <file path="/mobileRouter.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365119550663" ignored="false" />
     <file path="/mobile.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1363834489793" ignored="false" />
-    <file path="/studentView.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1364093842597" ignored="false" />
+    <file path="/studentView.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1364524963319" ignored="false" />
+    <file path="/studentDetailsView.js" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365298573834" ignored="false" />
+    <file path="/studentDetailsView.tpl.html" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365036605647" ignored="false" />
+    <file path="/studentDetailsView.tpl" changelist="ec697cb3-e8ab-4567-a423-36704adc4434" time="1365127720200" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +160,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -77,7 +195,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -87,19 +204,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="loginView.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js">
+      <file leaf-file-name="studentView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/student/studentView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="43" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0">
+            <state line="20" column="39" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/common/footer.tpl">
+      <file leaf-file-name="studentDetailsView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+            <state line="39" column="81" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,65 +225,28 @@
       <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="15" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobileRouter.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/routers/mobileRouter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="55" selection-start="367" selection-end="373" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="572" selection-end="631" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/models/model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="16" selection-start="655" selection-end="663" vertical-scroll-proportion="0.0">
+            <state line="10" column="19" selection-start="491" selection-end="491" vertical-scroll-proportion="-6.5384617">
               <folding>
-                <marker date="1364067214236" expanded="false" signature="236:461" placeholder="{...}" />
-                <marker date="1364067214236" expanded="false" signature="279:363" placeholder="{&quot;userId&quot;: &quot;&quot;...}" />
-                <marker date="1364067214236" expanded="false" signature="408:455" placeholder="{...}" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginView.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.tpl">
+      <file leaf-file-name="loginView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+            <state line="85" column="50" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentView.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/student/studentView.js">
+      <file leaf-file-name="model.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/www/scripts/models/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="10" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentView.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/student/studentView.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="15" selection-start="494" selection-end="494" vertical-scroll-proportion="0.3456562">
+            <state line="39" column="41" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.67886853">
               <folding />
             </state>
           </provider>
@@ -197,22 +277,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/www/views/login/loginView.js" />
-        <option value="$PROJECT_DIR$/assets/www/views/login/loginView.tpl" />
-        <option value="$PROJECT_DIR$/assets/www/scripts/views/header/header.tpl" />
-        <option value="$PROJECT_DIR$/assets/www/css/style.css" />
         <option value="$PROJECT_DIR$/assets/www/scripts/libs/jquery.mobile-1.2.0.js" />
         <option value="$PROJECT_DIR$/assets/www/scripts/libs/jquery.mobile-1.2.0.css" />
         <option value="$PROJECT_DIR$/assets/www/scripts/libs/jquery-1.8.3.js" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
-        <option value="$PROJECT_DIR$/assets/www/scripts/views/common/header.tpl" />
         <option value="$PROJECT_DIR$/assets/www/scripts/mobile.js" />
         <option value="$PROJECT_DIR$/assets/www/scripts/views/login/loginView.tpl" />
-        <option value="$PROJECT_DIR$/assets/www/scripts/routers/mobileRouter.js" />
         <option value="$PROJECT_DIR$/assets/www/scripts/views/student/studentView.tpl" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetails.js" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.tpl.html" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/routers/mobileRouter.js" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.tpl" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.js" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/views/common/header.tpl" />
         <option value="$PROJECT_DIR$/assets/www/scripts/views/student/studentView.js" />
-        <option value="$PROJECT_DIR$/assets/www/scripts/models/model.js" />
         <option value="$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/models/model.js" />
       </list>
     </option>
   </component>
@@ -281,16 +361,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -345,150 +415,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-mdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-ldpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-2.2.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -544,34 +470,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="student" />
+              <option name="myItemId" value="studentDetails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -600,161 +500,15 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolInSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -791,6 +545,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -999,12 +754,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-8" width="1315" height="784" extended-state="0" />
+    <frame x="59" y="-8" width="1315" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3424" sideWeight="0.37430167" order="7" side_tool="true" content_ui="tabs" />
@@ -1013,8 +768,8 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3424" sideWeight="0.6201117" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32322428" sideWeight="0.3952" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980047" sideWeight="0.3952" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1064,7 +819,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished up login and students page -1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added missing files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1086,6 +841,7 @@
     <MESSAGE value="Login page base working version" />
     <MESSAGE value="finished up login and students page" />
     <MESSAGE value="finished up login and students page -1" />
+    <MESSAGE value="added missing files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1095,20 +851,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="76" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/student/studentView.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/scripts/libs/backbone-0.9.2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="349" column="4" selection-start="12294" selection-end="12294" vertical-scroll-proportion="0.33333334" />
@@ -1131,74 +873,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.6530612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/common/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+        <state line="8" column="22" selection-start="281" selection-end="281" vertical-scroll-proportion="0.24548736">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/routers/mobileRouter.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="55" selection-start="367" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="10" column="14" selection-start="425" selection-end="425" vertical-scroll-proportion="0.20238096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="572" selection-end="631" vertical-scroll-proportion="0.0">
+        <state line="25" column="47" selection-start="775" selection-end="775" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/models/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="655" selection-end="663" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1364067214236" expanded="false" signature="236:461" placeholder="{...}" />
-            <marker date="1364067214236" expanded="false" signature="279:363" placeholder="{&quot;userId&quot;: &quot;&quot;...}" />
-            <marker date="1364067214236" expanded="false" signature="408:455" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/student/studentView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="10" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0">
+        <state line="22" column="29" selection-start="904" selection-end="904" vertical-scroll-proportion="0.67509025">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/student/studentView.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="15" selection-start="494" selection-end="494" vertical-scroll-proportion="0.3456562">
+        <state line="11" column="10" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="11" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/routers/mobileRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="712" selection-end="712" vertical-scroll-proportion="-0.14455782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/studentDetails/studentDetailsView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="81" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="491" selection-end="491" vertical-scroll-proportion="-6.5384617">
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/student/studentView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="39" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/views/login/loginView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="50" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/models/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="41" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.67886853">
           <folding />
         </state>
       </provider>
