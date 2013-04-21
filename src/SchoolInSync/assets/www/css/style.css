@@ -27,13 +27,7 @@ li {
     color: red;
 }
 
-#logo {
-    margin: 20px auto;
-    width: 25%;
-    height: 10%;
-}
-
-#contactUs {
+.contactUs {
     float: left;
     width: 8%;
     height: 5%;
@@ -41,6 +35,14 @@ li {
     max-height: 30px;
     max-width: 30px;
 }
+
+#logo {
+    margin: 20px auto;
+    width: 25%;
+    height: 10%;
+}
+
+
 
 
 

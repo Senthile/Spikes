@@ -1,10 +1,15 @@
 define([ "jquery", "backbone"],function( $, Backbone) {
 
-
     var baseUrl = 'http://localhost:57767/School',
          loginUrl = baseUrl + '/login',
          studentsUrl = baseUrl + "/getStudents",
+         logoutUrl = baseUrl + '/logout',
          self = this;
+
+    var Logout = Backbone.Model.extend({
+        url: logoutUrl,
+        userId: null
+    });
 
     var login = new(Backbone.Model.extend({
         url: loginUrl,
@@ -15,8 +20,15 @@ define([ "jquery", "backbone"],function( $, Backbone) {
         },
         doAuthenticate: function (options) {
             this.save({}, options);
+        },
+        doLogOut: function(options)  {
+            var logout = new Logout({userId:login.toJSON().userId});
+            logout.save({},options);
         }
+
     }));
+
+
 
     var Student =  Backbone.Model.extend({
         defaults: {

@@ -7,7 +7,7 @@ require.config( {
         "jquerymobile": "libs/jquery.mobile-1.3.0",
         "underscore": "libs/underscore-1.4.3",
         "backbone": "libs/backbone-0.9.2",
-        text:'libs/text-2.0.3'
+        "text": "libs/text-2.0.3"
     },
 
     // Sets the configuration for your third party scripts that are not AMD compatible
@@ -41,9 +41,6 @@ require([ "jquery", "backbone", "routers/mobileRouter" ], function ($, Backbone,
         // Instantiates a new Backbone.js Mobile Router
         this.MobileRouter = new MobileRouter();
     });
-    $( "#contactus" ).on( "click", "a", function( e ) {
-        e.preventDefault();
-        window.history.go(-1);
-    });
+
 });
 

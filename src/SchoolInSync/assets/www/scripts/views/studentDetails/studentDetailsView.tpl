@@ -1,3 +1,4 @@
+<div data-role='header' data-position='fixed'></div>
 <div data-role="content">
     <% if(student) { %>
         <ul data-role="listview" data-inset="true">
@@ -24,3 +25,4 @@
         <span class="error"> No data available to display.</span>
     <% } %>
 </div>
+<div data-role="footer" data-position="fixed"></div>

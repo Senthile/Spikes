@@ -1,6 +1,7 @@
 // Includes file dependencies
-define([ "jquery","backbone", "views/login/loginView", 'views/student/studentView', 'views/studentDetails/studentDetailsView'],
-    function( $, Backbone, LoginView, StudentView, StudentDetailsView ) {
+define([ "jquery","backbone", "views/login/loginView", 'views/student/studentView', 'views/studentDetails/studentDetailsView',
+         'views/common/contactus/contactusView'  ],
+    function( $, Backbone, LoginView, StudentView, StudentDetailsView, ContactusView ) {
 
     // Extends Backbone.Router
     var MobileRouter = Backbone.Router.extend( {
@@ -10,6 +11,8 @@ define([ "jquery","backbone", "views/login/loginView", 'views/student/studentVie
             this.loginView = new LoginView({el: "#login"});
             this.studentView = new StudentView({el: "#student"});
             this.studentDetailsView = new StudentDetailsView({el: "#studentDetails"});
+            this.contactusVew = new ContactusView({el:"#contactus"});
+            this.contactusVew.render();
 
            // Tells Backbone to start watching for hashchange events
             Backbone.history.start();

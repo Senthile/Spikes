@@ -1,6 +1,6 @@
 // Includes file dependencies
-define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login/loginView.tpl', 'text!views/common/footer.tpl', "models/model"],
-    function( $, Backbone,HeaderTemplate, LoginViewTemplate, FooterTemplate, Model) {
+define([ "jquery", "backbone", 'views/common/header/headerView', 'text!views/login/loginView.tpl', 'views/common/footer/footerView', "models/model"],
+    function( $, Backbone,HeaderView, LoginViewTemplate, FooterView, Model) {
 
     // Extends Backbone.View
     var LoginView = Backbone.View.extend( {
@@ -19,14 +19,14 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login
             'change input':  'fieldChanged'
         },
 
-        headerTemplate: _.template(HeaderTemplate),
         template:_.template(LoginViewTemplate),
-        footerViewTemplate: _.template(FooterTemplate),
 
         model: Model.login,
 
        // The View Constructor
         initialize: function() {
+            this.headerView =  new HeaderView({ model:{canMoveBack: false, logout: false, title: "Login"}});
+            this.footerView = new FooterView();
             this.model.on('change',this.handleModelChange,this);
         },
 
@@ -37,10 +37,14 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/login
 
         render: function() {
             console.log("login render called");
-            var header = this.headerTemplate({canMoveBack: false, logout: false, title: "Login"}),
-                content = this.template(this.model.toJSON()),
-                footer =   this.footerViewTemplate();
-            this.$el.html(header + content + footer);
+            this.$el.html(this.template(this.model.toJSON()));
+
+            this.headerView.setElement(this.$("div[data-role='header']")).delegateEvents();
+            this.footerView.setElement(this.$("div[data-role='footer']")).delegateEvents();
+
+            this.headerView.render();
+            this.footerView.render();
+
             return this;
         },
 

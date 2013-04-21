@@ -1,3 +1,4 @@
+<div data-role='header' data-position='fixed'></div>
 <div data-role="content">
         <header>
             <center><img id="logo" src="images/logo.jpg" alt="logo"/></center>
@@ -25,3 +26,4 @@
             </ul>
         </section>
 </div>
+<div data-role="footer" data-position="fixed"></div>

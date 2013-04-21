@@ -1,6 +1,6 @@
 // Includes file dependencies
-define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/student/studentView.tpl', 'text!views/common/footer.tpl', "models/model"],
-    function( $, Backbone, HeaderTemplate, StudentViewTemplate, FooterTemplate, Model) {
+define([ "jquery", "backbone", 'views/common/header/headerView', 'text!views/student/studentView.tpl', 'views/common/footer/footerView', "models/model"],
+    function( $, Backbone, HeaderView, StudentViewTemplate, FooterView, Model) {
 
         var self = Model;
     // Extends Backbone.View
@@ -12,15 +12,14 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/stude
             'click a[href=#list]': "showStudentDetails"
         },
 
-        headerTemplate: _.template(HeaderTemplate),
         template:_.template(StudentViewTemplate),
-        footerViewTemplate: _.template(FooterTemplate),
 
         collection: Model.students,
 
         initialize: function() {
+            this.headerView =  new HeaderView({model:{canMoveBack: false, logout: true, title: "Students"}});
+            this.footerView = new FooterView();
             this.collection.on('reset',this.handleModelChange,this);
-
         },
 
         handleModelChange : function() {
@@ -29,10 +28,14 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/stude
         },
 
         render: function() {
-            var header = this.headerTemplate({canMoveBack: false, logout: true, title: "Students"}),
-                content = this.template({students:this.collection.toJSON()}),
-                footer =   this.footerViewTemplate();
-            this.$el.html(header + content + footer);
+            this.$el.html(this.template({students:this.collection.toJSON()}));
+
+            this.headerView.setElement(this.$("div[data-role='header']")).delegateEvents();
+            this.footerView.setElement(this.$("div[data-role='footer']")).delegateEvents();
+
+            this.headerView.render();
+            this.footerView.render();
+
             return this;
         },
 

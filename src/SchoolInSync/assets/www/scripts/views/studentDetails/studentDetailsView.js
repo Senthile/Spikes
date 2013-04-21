@@ -1,6 +1,6 @@
 // Includes file dependencies
-define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/studentDetails/studentDetailsView.tpl', 'text!views/common/footer.tpl', "models/model"],
-    function( $, Backbone, HeaderTemplate, StudentDetailsViewTemplate, FooterTemplate, Model) {
+define([ "jquery", "backbone", 'views/common/header/headerView', 'text!views/studentDetails/studentDetailsView.tpl',  'views/common/footer/footerView', "models/model"],
+    function( $, Backbone, HeaderView, StudentDetailsViewTemplate, FooterView, Model) {
 
         var self = Model;
         // Extends Backbone.View
@@ -11,12 +11,12 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/stude
                 'pageshow': "pageshow"
             },
 
-            headerTemplate: _.template(HeaderTemplate),
             template:_.template(StudentDetailsViewTemplate),
-            footerViewTemplate: _.template(FooterTemplate),
 
             initialize: function() {
                 //this.model.on('change',this.handleModelChange,this);
+                this.headerView =  new HeaderView({model:{canMoveBack: false, logout: true, title: "Students"}});
+                this.footerView = new FooterView();
             },
 
             handleModelChange : function() {
@@ -25,15 +25,18 @@ define([ "jquery", "backbone", 'text!views/common/header.tpl', 'text!views/stude
             },
 
             render: function() {
-                var data, title, header, content, footer;
-                if(this.model){
-                    data = this.model.toJSON();
+                var data, title;
+                if(this.model) {
+                    var data = this.model.toJSON(),
                     title = data.firstName + " " + data.lastName.substring(0,1);
                 }
-                header = this.headerTemplate({canMoveBack: true, logout: true, title: title}),
-                content = this.template({student:data}),
-                footer =   this.footerViewTemplate();
-                this.$el.html(header + content + footer);
+                this.$el.html(this.template({student:data}));
+                this.headerView =  new HeaderView({model:{canMoveBack: true, logout: true, title: title}});
+                this.headerView.setElement(this.$("div[data-role='header']")).delegateEvents();
+                this.footerView.setElement(this.$("div[data-role='footer']")).delegateEvents();
+
+                this.headerView.render();
+                this.footerView.render();
                 return this;
             },
 
